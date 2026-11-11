@@ -1,0 +1,4 @@
+build/
+data/inputs/*.bin
+__pycache__/
+*.pyc
