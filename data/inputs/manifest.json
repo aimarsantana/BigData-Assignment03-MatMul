@@ -1,0 +1,68 @@
+{
+  "numpy_version": "2.4.6",
+  "generator": "numpy.random.default_rng (PCG64)",
+  "seeds": {
+    "A": 20261012,
+    "B": 20261013
+  },
+  "distribution": "uniform [-1, 1)",
+  "dtype": "float64 little-endian, row-major",
+  "files": {
+    "A_n64.bin": "84e86c1bf2ff7c6eada6fb07c54604bf0b7618c27b44b32012b5e8bb0451dcc8",
+    "B_n64.bin": "af709a182c3ff48dddbef9cb82efd78905df178b815ab8497a41d8c7a8e6ab4d",
+    "A_n128.bin": "b41312c9b8cbae10fb862f9a3d59174db4c0a0ba2a8b4ba5a513f4397f507b96",
+    "B_n128.bin": "9f1507a6ba39d1ed5ea8da06557aa41c6f452e6c8cc04a33eebeca2ec62e2523",
+    "A_n256.bin": "70d0e0eb25c616c6fa5103150427db3b510b5fcc208aff92d1334f3664411fd4",
+    "B_n256.bin": "3a6602766bc43632965523425154a798ad18f9f353e7ce606930d9b4c0335fac",
+    "A_n512.bin": "b469ab571a4c6fb9e01e650f3d5b32b8a5572573346c86e74485ab14e95d7476",
+    "B_n512.bin": "c0f2320adfe27573573de7d04ef2319f01f5240a089c5bb54ccfbec061f413e0",
+    "A_n1024.bin": "ab596e66b785dee1bcbbd3d284674b776eb72a731a884e988fdf017d85bb8b31",
+    "B_n1024.bin": "f74300e193e074ff9b4b1546cfc0324f904f6ad81f8880b5c4c8c0f9c31522ab",
+    "A_n1536.bin": "51ed61303daf2500d1df2fac4fa1cb52a17ba490884f71b92e53cedc248a7a57",
+    "B_n1536.bin": "a9e0b0ddad479c2ec1b3d198f882a53b18bee1ada2e3c1398872a4ef9492c49b",
+    "A_n2048.bin": "73561fba36436fc50511c5853dc7823cf9b0944f4d439e1b724b48ed8628d21d",
+    "B_n2048.bin": "2c33a6eb5b9789ff26d4baad6f233286f516cd5799226f2eeb790e2dd77d71ee",
+    "A_n3072.bin": "dbb661654784f22dc56315b3407c002bfdf6edff3fb92b09eaf62ad47a991533",
+    "B_n3072.bin": "f68f4bd76980ccbd13a3382c08369bda39faa04e559b7e365e4920c1e50c4298",
+    "A_n4096.bin": "0e6a7039c8285c0a08cd9f9bbb4721305db2ba03dd9ecaab4633a8f8e47caf4c",
+    "B_n4096.bin": "bd853fce5539d49f8331b7156ec15b5436f12e17fb6879d939d8478fb1505b96"
+  },
+  "checked_against": {
+    "../../Assignment01_AlejandroSantana_Materials/data/inputs/manifest.json": {
+      "A_n64.bin": true,
+      "B_n64.bin": true,
+      "A_n128.bin": true,
+      "B_n128.bin": true,
+      "A_n256.bin": true,
+      "B_n256.bin": true,
+      "A_n512.bin": true,
+      "B_n512.bin": true,
+      "A_n1024.bin": true,
+      "B_n1024.bin": true,
+      "A_n1536.bin": true,
+      "B_n1536.bin": true,
+      "A_n2048.bin": true,
+      "B_n2048.bin": true
+    },
+    "../../assigment-2/Assignment02_AlejandroSantana_Materials/data/inputs/manifest.json": {
+      "A_n64.bin": true,
+      "B_n64.bin": true,
+      "A_n128.bin": true,
+      "B_n128.bin": true,
+      "A_n256.bin": true,
+      "B_n256.bin": true,
+      "A_n512.bin": true,
+      "B_n512.bin": true,
+      "A_n1024.bin": true,
+      "B_n1024.bin": true,
+      "A_n1536.bin": true,
+      "B_n1536.bin": true,
+      "A_n2048.bin": true,
+      "B_n2048.bin": true,
+      "A_n3072.bin": true,
+      "B_n3072.bin": true,
+      "A_n4096.bin": true,
+      "B_n4096.bin": true
+    }
+  }
+}
