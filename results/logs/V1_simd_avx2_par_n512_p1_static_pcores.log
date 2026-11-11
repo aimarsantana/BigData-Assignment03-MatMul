@@ -1,0 +1,28 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_avx2.exe dense par C:\bench_a3\data\A_n512.bin C:\bench_a3\data\B_n512.bin 512 2 10 0 1 static pcores
+INFO,all,build,avx2
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -mavx2 -ffp-contract=off -DUSE_SIMD -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,par,threads_requested,1
+INFO,par,threads_actual,1
+INFO,par,threads_pinned,1
+INFO,par,schedule,static
+INFO,par,placement,pcores
+SAMPLE,par,512,warmup,0,1,9390700.0,1878.8115925685456
+SAMPLE,par,512,warmup,1,2,8411700.0,1878.8115925685456
+SAMPLE,par,512,measured,0,2,8797050.0,1878.8115925685456
+SAMPLE,par,512,measured,1,2,8115950.0,1878.8115925685456
+SAMPLE,par,512,measured,2,2,7901050.0,1878.8115925685456
+SAMPLE,par,512,measured,3,2,7845900.0,1878.8115925685456
+SAMPLE,par,512,measured,4,2,7827550.0,1878.8115925685456
+SAMPLE,par,512,measured,5,2,7824900.0,1878.8115925685456
+SAMPLE,par,512,measured,6,2,7882550.0,1878.8115925685456
+SAMPLE,par,512,measured,7,2,7982550.0,1878.8115925685456
+SAMPLE,par,512,measured,8,2,7846650.0,1878.8115925685456
+SAMPLE,par,512,measured,9,2,7859150.0,1878.8115925685456
+INFO,par,placement_map,0:0P
+INFO,par,placement_ok,1
+MEM,par,512,peak_working_set_kib,11052
+MEM,par,512,peak_commit_kib,6996

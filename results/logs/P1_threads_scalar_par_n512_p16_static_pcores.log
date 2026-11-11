@@ -1,0 +1,28 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_scalar.exe dense par C:\bench_a3\data\A_n512.bin C:\bench_a3\data\B_n512.bin 512 2 10 0 16 static pcores
+INFO,all,build,scalar
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -fno-tree-vectorize -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,par,threads_requested,16
+INFO,par,threads_actual,16
+INFO,par,threads_pinned,16
+INFO,par,schedule,static
+INFO,par,placement,pcores
+SAMPLE,par,512,warmup,0,1,2926800.0,1878.8115925685456
+SAMPLE,par,512,warmup,1,6,2904450.0,1878.8115925685456
+SAMPLE,par,512,measured,0,6,2878383.3,1878.8115925685456
+SAMPLE,par,512,measured,1,6,2875516.7,1878.8115925685456
+SAMPLE,par,512,measured,2,6,2975150.0,1878.8115925685456
+SAMPLE,par,512,measured,3,6,2874316.7,1878.8115925685456
+SAMPLE,par,512,measured,4,6,2878533.3,1878.8115925685456
+SAMPLE,par,512,measured,5,6,2892883.3,1878.8115925685456
+SAMPLE,par,512,measured,6,6,2872016.7,1878.8115925685456
+SAMPLE,par,512,measured,7,6,2943100.0,1878.8115925685456
+SAMPLE,par,512,measured,8,6,2973633.3,1878.8115925685456
+SAMPLE,par,512,measured,9,6,2963983.3,1878.8115925685456
+INFO,par,placement_map,0:0P 1:2P 2:4P 3:6P 4:8P 5:10P 6:12P 7:14P 8:16E 9:17E 10:18E 11:19E 12:20E 13:21E 14:22E 15:23E
+INFO,par,placement_ok,1
+MEM,par,512,peak_working_set_kib,11704
+MEM,par,512,peak_commit_kib,7696

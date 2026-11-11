@@ -1,0 +1,23 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_scalar.exe dense seq C:\bench_a3\data\A_n512.bin C:\bench_a3\data\B_n512.bin 512 2 10 0 1 static pcores
+INFO,all,build,scalar
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -fno-tree-vectorize -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,seq,placement,pcores
+SAMPLE,seq,512,warmup,0,1,19905100.0,1878.8115925685456
+SAMPLE,seq,512,warmup,1,1,19238400.0,1878.8115925685456
+SAMPLE,seq,512,measured,0,1,19054500.0,1878.8115925685456
+SAMPLE,seq,512,measured,1,1,19170500.0,1878.8115925685456
+SAMPLE,seq,512,measured,2,1,19278300.0,1878.8115925685456
+SAMPLE,seq,512,measured,3,1,19152000.0,1878.8115925685456
+SAMPLE,seq,512,measured,4,1,19069000.0,1878.8115925685456
+SAMPLE,seq,512,measured,5,1,19008800.0,1878.8115925685456
+SAMPLE,seq,512,measured,6,1,19055300.0,1878.8115925685456
+SAMPLE,seq,512,measured,7,1,19141200.0,1878.8115925685456
+SAMPLE,seq,512,measured,8,1,19993600.0,1878.8115925685456
+SAMPLE,seq,512,measured,9,1,19193500.0,1878.8115925685456
+INFO,seq,cpu_at_end,0
+MEM,seq,512,peak_working_set_kib,10968
+MEM,seq,512,peak_commit_kib,7040

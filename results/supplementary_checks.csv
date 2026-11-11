@@ -1,0 +1,46 @@
+check,build,method,n,threads,where,round,median_s
+C1_core_position,avx2,seq,1024,1,logical 0 (ran on 0),0,0.1362666
+C1_core_position,avx2,seq,1024,1,logical 2 (ran on 2),0,0.1354079
+C1_core_position,avx2,seq,1024,1,logical 4 (ran on 4),0,0.1348356
+C1_core_position,avx2,seq,1024,1,logical 6 (ran on 6),0,0.134397
+C1_core_position,scalar,seq,1024,1,logical 0 (ran on 0),0,0.1661744
+C1_core_position,scalar,seq,1024,1,logical 2 (ran on 2),0,0.1670805
+C1_core_position,scalar,seq,1024,1,logical 4 (ran on 4),0,0.1672281
+C1_core_position,scalar,seq,1024,1,logical 6 (ran on 6),0,0.1683393
+C2_repeat_n128,avx2,seq,128,1,pcores,0,0.000106076
+C2_repeat_n128,avx2,par,128,1,pcores,0,0.0001000015
+C2_repeat_n128,scalar,seq,128,1,pcores,0,0.0002947778
+C2_repeat_n128,scalar,par,128,1,pcores,0,0.000303139
+C3_per_thread_rate,avx2,par,1024,1,pcores,0,0.1372509
+C3_per_thread_rate,avx2,par,1024,2,pcores,0,0.0559228
+C3_per_thread_rate,avx2,par,1024,4,pcores,0,0.0288021
+C1_core_position,avx2,seq,1024,1,logical 0 (ran on 0),1,0.1370487
+C1_core_position,avx2,seq,1024,1,logical 2 (ran on 2),1,0.13645
+C1_core_position,avx2,seq,1024,1,logical 4 (ran on 4),1,0.1347535
+C1_core_position,avx2,seq,1024,1,logical 6 (ran on 6),1,0.1336003
+C1_core_position,scalar,seq,1024,1,logical 0 (ran on 0),1,0.166778
+C1_core_position,scalar,seq,1024,1,logical 2 (ran on 2),1,0.1677155
+C1_core_position,scalar,seq,1024,1,logical 4 (ran on 4),1,0.1690711
+C1_core_position,scalar,seq,1024,1,logical 6 (ran on 6),1,0.1677588
+C2_repeat_n128,avx2,seq,128,1,pcores,1,0.000164343
+C2_repeat_n128,avx2,par,128,1,pcores,1,0.00011636160000000001
+C2_repeat_n128,scalar,seq,128,1,pcores,1,0.0002935414
+C2_repeat_n128,scalar,par,128,1,pcores,1,0.0002988897
+C3_per_thread_rate,avx2,par,1024,1,pcores,1,0.1375865
+C3_per_thread_rate,avx2,par,1024,2,pcores,1,0.0563573
+C3_per_thread_rate,avx2,par,1024,4,pcores,1,0.0286166
+C1_core_position,avx2,seq,1024,1,logical 0 (ran on 0),2,0.1371372
+C1_core_position,avx2,seq,1024,1,logical 2 (ran on 2),2,0.1351651
+C1_core_position,avx2,seq,1024,1,logical 4 (ran on 4),2,0.1346874
+C1_core_position,avx2,seq,1024,1,logical 6 (ran on 6),2,0.1337605
+C1_core_position,scalar,seq,1024,1,logical 0 (ran on 0),2,0.1664868
+C1_core_position,scalar,seq,1024,1,logical 2 (ran on 2),2,0.1672627
+C1_core_position,scalar,seq,1024,1,logical 4 (ran on 4),2,0.1679998
+C1_core_position,scalar,seq,1024,1,logical 6 (ran on 6),2,0.1682441
+C2_repeat_n128,avx2,seq,128,1,pcores,2,0.0002000653
+C2_repeat_n128,avx2,par,128,1,pcores,2,0.0001851495
+C2_repeat_n128,scalar,seq,128,1,pcores,2,0.0002939542
+C2_repeat_n128,scalar,par,128,1,pcores,2,0.00040151190000000005
+C3_per_thread_rate,avx2,par,1024,1,pcores,2,0.1360066
+C3_per_thread_rate,avx2,par,1024,2,pcores,2,0.0558751
+C3_per_thread_rate,avx2,par,1024,4,pcores,2,0.0289123

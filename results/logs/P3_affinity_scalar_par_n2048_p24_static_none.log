@@ -1,0 +1,23 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_scalar.exe dense par C:\bench_a3\data\A_n2048.bin C:\bench_a3\data\B_n2048.bin 2048 1 7 0 24 static none
+INFO,all,build,scalar
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -fno-tree-vectorize -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,par,threads_requested,24
+INFO,par,threads_actual,24
+INFO,par,threads_pinned,0
+INFO,par,schedule,static
+INFO,par,placement,none
+SAMPLE,par,2048,warmup,0,1,197925200.0,-38237.608789220285
+SAMPLE,par,2048,measured,0,1,207611800.0,-38237.608789220285
+SAMPLE,par,2048,measured,1,1,204907600.0,-38237.608789220285
+SAMPLE,par,2048,measured,2,1,205989800.0,-38237.608789220285
+SAMPLE,par,2048,measured,3,1,188412800.0,-38237.608789220285
+SAMPLE,par,2048,measured,4,1,206946600.0,-38237.608789220285
+SAMPLE,par,2048,measured,5,1,195842400.0,-38237.608789220285
+SAMPLE,par,2048,measured,6,1,208403900.0,-38237.608789220285
+INFO,par,placement_map,0:8P 1:6P 2:12P 3:1S 4:2P 5:11S 6:23E 7:3S 8:0P 9:14P 10:20E 11:21E 12:4P 13:3S 14:2P 15:9S 16:9S 17:15S 18:13S 19:1S 20:8P 21:5S 22:7S 23:6P
+MEM,par,2048,peak_working_set_kib,104072
+MEM,par,2048,peak_commit_kib,100364

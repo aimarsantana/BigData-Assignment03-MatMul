@@ -1,0 +1,19 @@
+﻿date_utc: 2026-11-11T17:55:47Z
+cpu_model: 13th Gen Intel(R) Core(TM) i7-13700K
+physical_cores: 16
+logical_processors: 24
+core_types (GetLogicalProcessorInformationEx): 8 performance cores with 2 SMT threads each, 8 efficiency cores without SMT (24 logical processors)
+cpu_max_clock_mhz (reported by Windows): 3400
+l2_cache_kb (Win32_Processor): 24576
+l3_cache_kb (Win32_Processor): 30720
+ram_total_gb: 31.75
+ram_modules: 16GB@5600MT/s, 16GB@5600MT/s
+os: Microsoft Windows 11 Home 10.0.26200 build 26200
+power_scheme: Equilibrado
+machine_type: desktop (no battery)
+gcc: gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 16.1.0
+openmp_runtime: libgomp (bundled with gcc), _OPENMP = 202111
+python (uv): 3.11.9 numpy 2.4.6 pandas 3.1.1 matplotlib 3.11.2
+build_flags scalar: gcc -O2 -std=c11 -Wall -Wextra -fopenmp -fno-tree-vectorize -lpsapi (see build.ps1)
+build_flags avx2:   gcc -O2 -std=c11 -Wall -Wextra -fopenmp -mavx2 -ffp-contract=off -DUSE_SIMD -lpsapi
+omp_environment: OMP_* variables removed by the harness; threads, schedule and dynamic=false set by the program

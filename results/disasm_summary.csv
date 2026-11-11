@@ -1,0 +1,5 @@
+build,function,instructions,scalar_sse2,packed_sse2,packed_avx_ymm,packed_avx_xmm,scalar_avx,fma
+scalar,matmul_seq,109,10,0,0,0,0,0
+scalar,matmul_par._omp_fn.0,154,10,0,0,0,0,0
+avx2,matmul_seq,222,0,0,10,10,10,0
+avx2,matmul_par._omp_fn.0,296,0,0,10,10,10,0

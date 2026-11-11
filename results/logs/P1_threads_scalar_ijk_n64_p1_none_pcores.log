@@ -1,0 +1,23 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_scalar.exe dense ijk C:\bench_a3\data\A_n64.bin C:\bench_a3\data\B_n64.bin 64 2 10 0 1 static pcores
+INFO,all,build,scalar
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -fno-tree-vectorize -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,ijk,placement,pcores
+SAMPLE,ijk,64,warmup,0,1,76000.0,-179.39598381020039
+SAMPLE,ijk,64,warmup,1,263,65294.7,-179.39598381020039
+SAMPLE,ijk,64,measured,0,263,65455.1,-179.39598381020039
+SAMPLE,ijk,64,measured,1,263,65437.3,-179.39598381020039
+SAMPLE,ijk,64,measured,2,263,65966.5,-179.39598381020039
+SAMPLE,ijk,64,measured,3,263,66125.5,-179.39598381020039
+SAMPLE,ijk,64,measured,4,263,65935.0,-179.39598381020039
+SAMPLE,ijk,64,measured,5,263,65300.4,-179.39598381020039
+SAMPLE,ijk,64,measured,6,263,65372.6,-179.39598381020039
+SAMPLE,ijk,64,measured,7,263,65573.8,-179.39598381020039
+SAMPLE,ijk,64,measured,8,263,65350.2,-179.39598381020039
+SAMPLE,ijk,64,measured,9,263,65335.4,-179.39598381020039
+INFO,ijk,cpu_at_end,0
+MEM,ijk,64,peak_working_set_kib,4912
+MEM,ijk,64,peak_commit_kib,932

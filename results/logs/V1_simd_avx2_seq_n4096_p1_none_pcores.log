@@ -1,0 +1,17 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_avx2.exe dense seq C:\bench_a3\data\A_n4096.bin C:\bench_a3\data\B_n4096.bin 4096 1 5 0 1 static pcores
+INFO,all,build,avx2
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -mavx2 -ffp-contract=off -DUSE_SIMD -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,seq,placement,pcores
+SAMPLE,seq,4096,warmup,0,1,15027136100.0,-18373.362654298053
+SAMPLE,seq,4096,measured,0,1,14920500400.0,-18373.362654298053
+SAMPLE,seq,4096,measured,1,1,14951858500.0,-18373.362654298053
+SAMPLE,seq,4096,measured,2,1,14940805300.0,-18373.362654298053
+SAMPLE,seq,4096,measured,3,1,14929990500.0,-18373.362654298053
+SAMPLE,seq,4096,measured,4,1,14923203300.0,-18373.362654298053
+INFO,seq,cpu_at_end,0
+MEM,seq,4096,peak_working_set_kib,398128
+MEM,seq,4096,peak_commit_kib,394916

@@ -1,0 +1,19 @@
+C:\Users\aimar\OneDrive\Escritorio\PERSONAL\Universidad\Tercero de carrera\ASIGNATURAS\Big Data\assigments\assigment-3\Assignment03_AlejandroSantana_Materials\build\matmul3_avx2.exe dense seq C:\bench_a3\data\A_n2048.bin C:\bench_a3\data\B_n2048.bin 2048 1 7 0 1 static pcores
+INFO,all,build,avx2
+INFO,all,compiler,gcc 16.1.0
+INFO,all,cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -mavx2 -ffp-contract=off -DUSE_SIMD -lpsapi
+INFO,all,openmp,202111
+INFO,all,logical_processors,24
+INFO,all,priority,high
+INFO,seq,placement,pcores
+SAMPLE,seq,2048,warmup,0,1,1748909100.0,-38237.608789220285
+SAMPLE,seq,2048,measured,0,1,1745900500.0,-38237.608789220285
+SAMPLE,seq,2048,measured,1,1,1736420900.0,-38237.608789220285
+SAMPLE,seq,2048,measured,2,1,1687018000.0,-38237.608789220285
+SAMPLE,seq,2048,measured,3,1,1667020900.0,-38237.608789220285
+SAMPLE,seq,2048,measured,4,1,1691636800.0,-38237.608789220285
+SAMPLE,seq,2048,measured,5,1,1685039600.0,-38237.608789220285
+SAMPLE,seq,2048,measured,6,1,1674061600.0,-38237.608789220285
+INFO,seq,cpu_at_end,0
+MEM,seq,2048,peak_working_set_kib,103164
+MEM,seq,2048,peak_commit_kib,99384

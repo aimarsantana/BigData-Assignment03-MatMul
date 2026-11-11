@@ -1,0 +1,13 @@
+build,key,value
+scalar,all.build,scalar
+scalar,all.compiler,gcc 16.1.0
+scalar,all.cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -fno-tree-vectorize -lpsapi
+scalar,all.openmp,202111
+scalar,all.logical_processors,24
+scalar,all.priority,high
+avx2,all.build,avx2
+avx2,all.compiler,gcc 16.1.0
+avx2,all.cflags,-O2 -std=c11 -Wall -Wextra -fopenmp -mavx2 -ffp-contract=off -DUSE_SIMD -lpsapi
+avx2,all.openmp,202111
+avx2,all.logical_processors,24
+avx2,all.priority,high

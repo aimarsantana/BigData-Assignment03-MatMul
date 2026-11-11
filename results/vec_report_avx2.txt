@@ -1,0 +1,27 @@
+src/c/matmul3.c:285:39: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:285:39: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:273:26: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:273:26: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:178:13: optimized: basic block part vectorized using 8 byte vectors
+src/c/matmul3.c:285:39: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:285:39: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:273:26: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:273:26: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:286:39: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:286:39: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:274:26: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:274:26: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:178:13: optimized: basic block part vectorized using 8 byte vectors
+src/c/matmul3.c:286:39: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:286:39: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:274:26: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:274:26: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:286:39: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:286:39: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:274:26: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:274:26: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:178:13: optimized: basic block part vectorized using 8 byte vectors
+src/c/matmul3.c:286:39: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:286:39: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
+src/c/matmul3.c:274:26: optimized: loop vectorized using 32 byte vectors and unroll factor 4
+src/c/matmul3.c:274:26: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 2
